@@ -30,7 +30,7 @@ pip install streamlit
 ### 3. Executar o Programa
 
 ```bash
-streamlit run verificador_cartao.py
+streamlit run app.py
 ```
 
 ### 4. Acessar a Aplicação
