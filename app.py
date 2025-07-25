@@ -68,7 +68,10 @@ def salvar_dados_cartao(numero, validade, cvv):
 
 # ---------------- Interface Streamlit ---------------- #
 
+# Interface Streamlit
 st.title("🔒 Verificador de Cartão de Crédito")
+
+# Mensagem de conscientização
 st.warning("""
 **⚠️ IMPORTANTE - CONSCIENTIZAÇÃO SOBRE SEGURANÇA FINANCEIRA**
 
@@ -76,11 +79,14 @@ A verificação de cartões de crédito é fundamental para:
 - Prevenir fraudes e transações não autorizadas
 - Proteger seus dados pessoais e financeiros
 - Evitar prejuízos financeiros
+- Manter sua segurança digital
 
-**Este sistema é apenas para fins educacionais.**
+**NUNCA** compartilhe os dados do seu cartão com terceiros ou sites duvidosos.
+Este sistema é apenas para fins educacionais.
 """)
-
+    
 st.markdown("---")
+
 st.subheader("📝 Digite os dados do cartão:")
 
 numero_cartao = st.text_input("Número do Cartão de Crédito:", placeholder="1234 5678 9012 3456")
